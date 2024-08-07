@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-size: 16px;
-    background-color: #17A4CB;
+    background-color: hsla(61, 100%, 50%, 0.678);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -23,6 +23,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     animation: fadeInRight 1s ease;
+    border: #000000 solid 1px;
 }
 
 @keyframes fadeInRight {
@@ -78,10 +79,10 @@ body {
 }
 
 .btn {
-    background-color: #17A4CB;
+    background-color: #000000;
     padding: 15px 45px;
     border-radius: 10px;
-    color: white;
+    color: rgb(252, 255, 65);
     border: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -90,6 +91,7 @@ body {
 
 .exit-btn {
  background-color: red;
+ color: rgb(255, 255, 255);
  float: right;
 }
 .exit-btn:hover {
