@@ -5,7 +5,7 @@ const answersIndicatorContainer = document.querySelector(".answers-indicator");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
-const questionLimit = 5;
+const questionLimit = 10;
 
 let questionCounter = 0;
 let currentQuestion;
@@ -22,7 +22,7 @@ function setAvailableQuestions(){
 }
 
 function getNewQuestion(){
-    questionNumber.innerHTML = "Question " + (questionCounter+1) + " of " + questionLimit;
+    questionNumber.innerHTML = "Questão " + (questionCounter+1) + " de " + questionLimit;
     const questionIndex = availableQuestions[Math.floor(Math.random()*availableQuestions.length)];
     currentQuestion = questionIndex;
     questionText.innerHTML = currentQuestion.q;
@@ -67,9 +67,9 @@ function getResult(element){
         updateAnswerIndicator("wrong");
         const optionLength = optionContainer.children.length;
         for(let i=0; i<optionLength; i++){
-            if(parseInt(optionContainer.children[i].id)===currentQuestion.answer) {
-                optionContainer.children[i].classList.add("correct");
-            }
+            // if(parseInt(optionContainer.children[i].id)===currentQuestion.answer) {
+            //     optionContainer.children[i].classList.add("correct");
+            // }
         }
     }
     attempt++;
