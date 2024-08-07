@@ -68,7 +68,7 @@ const quiz = [
     {
         q:'Quantos cursos de graduação tem na UTFPR-CM?',
         options: ['10','9','8','7','6','5'],
-        answer: 1,
+        answer: 2,
         topic: "computer"
     },
     {
@@ -112,6 +112,12 @@ const quiz = [
         q:'Para eu ser um profissional que saiba tanto consertar um controle remoto quanto ajudar na criação de um carro, qual curso de graduação posso fazer na UTFPR-CM?',
         options: ['Engenharia Civil','Engenharia Química','Engenharia Ambiental e Sanitária','Ciência da Computação','Engenharia Eletrônica'],
         answer: 4,
+        topic: "computer"
+    },
+    {
+        q:'Quero muito trabalhar com inteligência artificial e no desenvolvimento de aplicativos. O curso ideal pra mim na UTFPR-CM é Ciência da Computação?',
+        options: ['Verdadeiro','Falso'],
+        answer: 0,
         topic: "computer"
     },
 ]

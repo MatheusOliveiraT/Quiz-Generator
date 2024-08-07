@@ -2,7 +2,7 @@
 <html lang="pt">
 
 <head>
-	<title>Quiz Game</title>
+	<title>Quiz Game UTFPR</title>
 	<link rel="icon" href="img/quiz.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
@@ -10,12 +10,17 @@
 
 <body>
 	<div class="home-box custom-box">
+        <!-- <img 
+            src="img/quiz.png"
+            width="150"
+            height="150" /> -->
 		<h3>Instruções</h3>
 		<p>Número total de questões: <span class="total-question"></span></p>
 		<p>Você pode responder o quiz apenas uma vez</p>
-		<p>Cada questão vale um ponto. Respostas erradas não diminuem pontos</p>
 		<p>As questões são de múltipla escolha</p>
-		<p>Ao avançar de questão não é possível retornar</p>
+		<p>Cada questão vale um ponto. Respostas erradas não diminuem pontos</p>
+        <p>Não é póssivel trocar de resposta após escolher uma alternativa</p>
+		<!-- <p>Ao avançar de questão não é possível retornar</p> -->
 		<button type="button" class="btn" onclick="startQuiz()">Começar quiz</button>
 	</div>
 
@@ -31,7 +36,7 @@
         </div>
         <div class="next-question-btn">
             <button type="button" class="btn next-btn" onclick="next()">Próximo</button>
-            <button type="button" class="btn exit-btn" onclick="quizOver()">Sair</button>
+            <!-- <button type="button" class="btn exit-btn" onclick="quizOver()">Sair</button> -->
         </div>
         <div class="answers-indicator">
 
