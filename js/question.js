@@ -2,7 +2,7 @@ const quiz = [
     {
         q:'Quantos anos o campus Campo Mourão da UTFPR completou em 2024?',
         options: ['29','27','19','18','16'],
-        answer: 1,
+        answer: 0,
         topic: "computer"
     },
     {
@@ -117,6 +117,84 @@ const quiz = [
     {
         q:'Quero muito trabalhar com inteligência artificial e no desenvolvimento de aplicativos. O curso ideal pra mim na UTFPR-CM é Ciência da Computação?',
         options: ['Verdadeiro','Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q:'Qual curso na UTFPR-CM ensina a desenvolver sistemas computacionais e aplicativos?',
+        options: ['Engenharia de Produção','Ciência da Computação','Engenharia Ambiental e Sanitária','Licenciatura em Química','Engenharia Eletrônica'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'Em qual curso da UTFPR-CM você pode se formar para projetar sistemas elétricos?',
+        options: ['Engenharia Civil','Engenharia Eletrônica','Tecnologia em Alimentos','Engenharia Mecânica','Agronomia'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'A UTFPR-CM oferece o curso de Engenharia Ambiental e Sanitária?',
+        options: ['Verdadeiro','Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q:'Em qual curso da UTFPR-CM você pode aprender sobre a produção e controle de qualidade de alimentos?',
+        options: ['Tecnologia em Alimentos','Engenharia Mecânica','Engenharia Eletrônica','Engenharia Química','Licenciatura em Química'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q:'Qual dos seguintes cursos na UTFPR-CM é mais focado em programação e desenvolvimento de software?',
+        options: ['Engenharia de Produção','Engenharia Civil','Ciência da Computação','Tecnologia em Alimentos','Engenharia Mecânica'],
+        answer: 2,
+        topic: "computer"
+    },
+    {
+        q:'Em qual curso da UTFPR-CM você aprenderá a lidar com o impacto ambiental de obras?',
+        options: ['Engenharia Eletrônica','Engenharia Ambiental e Sanitária','Ciência da Computação','Engenharia Mecânica','Tecnologia em Alimentos'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'O curso de Engenharia Eletrônica na UTFPR-CM é focado em:',
+        options: ['Projetar e construir estruturas como pontes e edifícios','Desenvolver e testar circuitos eletrônicos','Gerenciar a produção em fábricas','Criar softwares e aplicativos','Analisar o impacto ambiental de obras'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'Qual curso de graduação da UTFPR-CM prepara profissionais para trabalhar com a transformação e conservação de alimentos?',
+        options: ['Engenharia Química','Tecnologia em Alimentos','Engenharia de Produção','Licenciatura em Química','Engenharia Ambiental e Sanitária'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'O campus de Campo Mourão da UTFPR oferece cursos na área de Engenharia?',
+        options: ['Verdadeiro','Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q:'A UTFPR-CM oferece o curso de Licenciatura em Física?',
+        options: ['Verdadeiro','Falso'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'Qual curso da UTFPR-CM está mais alinhado com o desenvolvimento de sistemas de software e algoritmos?',
+        options: ['Engenharia Eletrônica','Ciência da Computação','Engenharia Civil','Tecnologia em Alimentos','Engenharia Química'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'Qual das atividades a seguir faz parte da formação em Licenciatura em Química na UTFPR-CM?',
+        options: ['Planejar e ministrar aulas','Projetar circuitos eletrônicos','Desenvolver sistemas de abastecimento de água','Criar estruturas de concreto para pontes','Gestão de processos industriais'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q:'Quais das seguintes atividades são típicas de um engenheiro civil?',
+        options: ['Calcular a resistência de materiais para construção','Desenvolver processos industriais químicos','Programar sistemas de controle de tráfego','Criar material didático para ensino de Química','Projetar circuitos eletrônicos para dispositivos móveis'],
         answer: 0,
         topic: "computer"
     },
