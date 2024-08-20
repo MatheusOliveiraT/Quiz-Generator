@@ -181,12 +181,6 @@ const quiz = [
         topic: "computer"
     },
     {
-        q:'Qual curso da UTFPR-CM está mais alinhado com o desenvolvimento de sistemas de software e algoritmos?',
-        options: ['Engenharia Eletrônica','Ciência da Computação','Engenharia Civil','Tecnologia em Alimentos','Engenharia Química'],
-        answer: 1,
-        topic: "computer"
-    },
-    {
         q:'Qual das atividades a seguir faz parte da formação em Licenciatura em Química na UTFPR-CM?',
         options: ['Planejar e ministrar aulas','Projetar circuitos eletrônicos','Desenvolver sistemas de abastecimento de água','Criar estruturas de concreto para pontes','Gestão de processos industriais'],
         answer: 0,
