@@ -10,23 +10,26 @@
 
 <body>
 	<div class="home-box custom-box">
-        <!-- <img 
-            src="img/quiz.png"
-            width="150"
-            height="150" /> -->
-		<h3>Instruções</h3>
+        <div class="cabecalho">
+            <h3>Instruções</h3> 
+            <img src="img/quiz.png"/>
+        </div>
 		<p>Número total de questões: <span class="total-question"></span></p>
 		<p>Você pode responder o quiz apenas uma vez</p>
 		<p>As questões são de múltipla escolha</p>
 		<p>Cada questão vale um ponto. Respostas erradas não diminuem pontos</p>
         <p>Não é póssivel trocar de resposta após escolher uma alternativa</p>
 		<!-- <p>Ao avançar de questão não é possível retornar</p> -->
-		<button type="button" class="btn" onclick="startQuiz()">Começar quiz</button>
+		<div class="align-btn">
+            <button type="button" class="btn" onclick="startQuiz()">Começar quiz</button>
+        </div>
 	</div>
 
     <div class="quiz-box custom-box hide">
-        <div class="question-number">
-
+        <div class="cabecalho">
+            <div class="question-number">
+            </div>
+            <img src="img/quiz.png"/>
         </div>
         <div class="question-text">
 
@@ -44,7 +47,11 @@
     </div>
 
     <div class="result-box custom-box hide">
-        <h1>Resultados</h1>
+        <div class="cabecalho">
+            <h1>Resultados</h1>
+            <img src="img/quiz.png"/>
+        </div>
+
         <table>
             <tr>
                 <td>Total de questões</td>
