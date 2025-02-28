@@ -50,8 +50,9 @@ body {
 .cabecalho {
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 10px;
+    align-items: center;
 }
 
 @keyframes fadeInRight {
@@ -159,17 +160,29 @@ body {
     padding-bottom: 30px;
     padding-bottom: 10px;
     line-height: 25px;
-    /* border-bottom: 1px solid #cccccc; */
 }
 
 .cabecalho .question-number {
     text-align: center;
     text-transform: uppercase;
     padding-top: 30px;
-    /* padding-left: 10px ; */
-    position: relative;
+    position: fixed;
     right: 30px;
-    left: 45px;
+    left: 0px;
+}
+
+.cabecalho .time-remaining {
+    position: absolute;
+    top: 110px;
+    left: 650px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho .logo {
+    left: 525px;
 }
 
 .cabecalho .question-number img {
@@ -320,13 +333,13 @@ body {
 }
 .result-box .cabecalho h1{
     text-align: center;
-    position: relative;
+    position: absolute;
     right: 30px;
     left: 39px;
 }
 
 .result-box .cabecalho img{
-    left: 150px;
+    left: 525px;
 }
 
 .result-box table {

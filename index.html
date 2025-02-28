@@ -15,6 +15,7 @@
             <img src="img/quiz.png"/>
         </div>
 		<p>Número total de questões: <span class="total-question"></span></p>
+        <p>Você tem <span class="time-question"></span> segundos para responder cada pergunta</p>
 		<p>Você pode responder o quiz apenas uma vez</p>
 		<p>As questões são de múltipla escolha</p>
 		<p>Cada questão vale um ponto. Respostas erradas não diminuem pontos</p>
@@ -27,9 +28,9 @@
 
     <div class="quiz-box custom-box hide">
         <div class="cabecalho">
-            <div class="question-number">
-            </div>
-            <img src="img/quiz.png"/>
+            <div class="time-remaining"></div>
+            <div class="question-number"></div>
+            <img src="img/quiz.png" class="logo"/>
         </div>
         <div class="question-text">
 
@@ -39,7 +40,6 @@
         </div>
         <div class="next-question-btn">
             <button type="button" class="btn next-btn" onclick="next()">Próximo</button>
-            <!-- <button type="button" class="btn exit-btn" onclick="quizOver()">Sair</button> -->
         </div>
         <div class="answers-indicator">
 

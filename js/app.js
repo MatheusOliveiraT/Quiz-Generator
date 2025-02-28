@@ -1,4 +1,5 @@
 const questionNumber = document.querySelector(".question-number");
+const timeRemaining = document.querySelector(".time-remaining");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
 const answersIndicatorContainer = document.querySelector(".answers-indicator");
@@ -6,6 +7,7 @@ const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 const questionLimit = 10;
+const timePerQuestion = 30;
 
 let questionCounter = 0;
 let currentQuestion;
@@ -13,6 +15,8 @@ let availableQuestions = [];
 let availableOptions = [];
 let correctAnswers = 0;
 let attempt = 0;
+let interval;
+let time = 30;
 
 function setAvailableQuestions(){
     const totalQuestions = quiz.length;
@@ -21,7 +25,28 @@ function setAvailableQuestions(){
     }
 }
 
+function setTimer() {
+    if (interval) clearInterval(interval);
+    time = timePerQuestion;
+    interval = setInterval(() => {
+        timeRemaining.innerHTML = ""+time;
+        if (time > timePerQuestion * 0.5) {
+            timeRemaining.style.color = "green";
+        } else if (time > timePerQuestion * 0.2) {
+            timeRemaining.style.color = "orange";
+        } else {
+            timeRemaining.style.color = "red";
+        }
+        if (time === 0) {
+            clearInterval(interval);
+            next();
+        }
+        time--;
+    }, 1000);
+}
+
 function getNewQuestion(){
+    setTimer();
     questionNumber.innerHTML = "Questão " + (questionCounter+1) + " de " + questionLimit;
     const questionIndex = availableQuestions[Math.floor(Math.random()*availableQuestions.length)];
     currentQuestion = questionIndex;
@@ -65,12 +90,6 @@ function getResult(element){
     else{
         element.classList.add("wrong");
         updateAnswerIndicator("wrong");
-        const optionLength = optionContainer.children.length;
-        for(let i=0; i<optionLength; i++){
-            // if(parseInt(optionContainer.children[i].id)===currentQuestion.answer) {
-            //     optionContainer.children[i].classList.add("correct");
-            // }
-        }
     }
     attempt++;
     unclickableOptions();
@@ -86,7 +105,9 @@ function unclickableOptions(){
 function next(){
     if(questionCounter === questionLimit){
         quizOver();
-    }else{
+    } else {
+        timeRemaining.innerHTML = ""+30;
+        timeRemaining.style.color = "green";
         getNewQuestion()
     }
 }
@@ -108,6 +129,8 @@ function updateAnswerIndicator(markType){
 function quizOver(){
     quizBox.classList.add("hide");
     resultBox.classList.remove("hide");
+    clearInterval(interval);
+    timeRemaining.innerHTML = "";
     quizResult();
 }
 
@@ -151,4 +174,5 @@ function startQuiz(){
 
 window.onload = function (){
     homeBox.querySelector(".total-question").innerHTML = ""+questionLimit;
+    homeBox.querySelector(".time-question").innerHTML = ""+timePerQuestion;
 }
