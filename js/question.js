@@ -151,39 +151,45 @@ const quiz = [
         topic: "computer"
     },
     {
-        q:'Em qual curso da UTFPR-CM você aprenderá a lidar com o impacto ambiental de obras?',
-        options: ['Engenharia Eletrônica','Engenharia Ambiental e Sanitária','Ciência da Computação','Engenharia Mecânica','Tecnologia em Alimentos'],
-        answer: 1,
-        topic: "computer"
-    },
-    {
-        q:'O curso de Engenharia Eletrônica na UTFPR-CM é focado em:',
-        options: ['Projetar e construir estruturas como pontes e edifícios','Desenvolver e testar circuitos eletrônicos','Gerenciar a produção em fábricas','Criar softwares e aplicativos','Analisar o impacto ambiental de obras'],
-        answer: 1,
-        topic: "computer"
-    },
-    {
-        q:'Qual curso de graduação da UTFPR-CM prepara profissionais para trabalhar com a transformação e conservação de alimentos?',
-        options: ['Engenharia Química','Tecnologia em Alimentos','Engenharia de Produção','Licenciatura em Química','Engenharia Ambiental e Sanitária'],
-        answer: 1,
-        topic: "computer"
-    },
-    {
         q:'O campus de Campo Mourão da UTFPR oferece cursos na área de Engenharia?',
         options: ['Verdadeiro','Falso'],
         answer: 0,
         topic: "computer"
     },
     {
-        q:'Qual das atividades a seguir faz parte da formação em Licenciatura em Química na UTFPR-CM?',
-        options: ['Planejar e ministrar aulas','Projetar circuitos eletrônicos','Desenvolver sistemas de abastecimento de água','Criar estruturas de concreto para pontes','Gestão de processos industriais'],
+        q:'A UTFPR foi a primeira universidade tecnológica do Brasil?',
+        options: ['Verdadeiro','Falso'],
         answer: 0,
         topic: "computer"
     },
     {
-        q:'Quais das seguintes atividades são típicas de um engenheiro civil?',
-        options: ['Calcular a resistência de materiais para construção','Desenvolver processos industriais químicos','Programar sistemas de controle de tráfego','Criar material didático para ensino de Química','Projetar circuitos eletrônicos para dispositivos móveis'],
+        q:'A UTFPR possui campi em diversas cidades do Paraná. Qual dessas cidades NÃO tem um campus da UTFPR?',
+        options: ['Curitiba','Campo Mourão','Londrina','Cornélio Procópio','Ponta Grossa'],
+        answer: 2,
+        topic: "computer"
+    },
+    {
+        q:'Além da graduação, a UTFPR também oferece:',
+        options: ['Cursos técnicos integrados','Cursos de pós-graduação','Cursos de extensão e pesquisa','Todas as alternativas estão corretas'],
+        answer: 3,
+        topic: "computer"
+    },
+    {
+        q:'A sigla UTFPR significa Universidade Tecnológica Federal do Paraná?',
+        options: ['Verdadeiro','Falso'],
         answer: 0,
+        topic: "computer"
+    },
+    {
+        q:'Qual cor é usada no logotipo oficial da UTFPR?',
+        options: ['Vermelho','Amarelo e Preto','Azul e Branco','Verde e Amarelo'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q:'A UTFPR é uma universidade considerada:',
+        options: ['Privada','Estadual','Federal'],
+        answer: 2,
         topic: "computer"
     },
 ]
