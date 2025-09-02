@@ -1,7 +1,7 @@
 const quiz = [
     {
-        q:'Quantos anos o campus Campo Mourão da UTFPR completou em 2024?',
-        options: ['29','27','19','18','16'],
+        q:'Quantos anos o campus Campo Mourão da UTFPR completou em 2025?',
+        options: ['30','27','19','18','16'],
         answer: 0,
         topic: "computer"
     },
@@ -172,12 +172,6 @@ const quiz = [
         q:'O campus de Campo Mourão da UTFPR oferece cursos na área de Engenharia?',
         options: ['Verdadeiro','Falso'],
         answer: 0,
-        topic: "computer"
-    },
-    {
-        q:'A UTFPR-CM oferece o curso de Licenciatura em Física?',
-        options: ['Verdadeiro','Falso'],
-        answer: 1,
         topic: "computer"
     },
     {
