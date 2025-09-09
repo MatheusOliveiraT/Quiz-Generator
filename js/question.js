@@ -164,7 +164,7 @@ const quiz = [
     },
     {
         q:'A UTFPR possui campi em diversas cidades do Paraná. Qual dessas cidades NÃO tem um campus da UTFPR?',
-        options: ['Curitiba','Campo Mourão','Londrina','Cornélio Procópio','Ponta Grossa'],
+        options: ['Curitiba','Campo Mourão','Mamborê','Cornélio Procópio','Ponta Grossa'],
         answer: 2,
         topic: "computer"
     },
