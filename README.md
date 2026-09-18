@@ -89,6 +89,7 @@ Agradecimentos especiais ao autor do projeto original por disponibilizar o códi
 * **Projeto Original:** [Quiz-Generator](https://github.com/githubcrce/Quiz-Generator?utm_source=gemini)
 * **Autor / Organização:** [GitHubCRCE](https://www.google.com/search?q=https://github.com/githubcrce&utm_source=gemini)
 * **Demo Original:** [Quiz-Generator Demo](https://githubcrce.github.io/Quiz-Generator/?utm_source=gemini)
+* **Demo UTFPR:** [Quiz-Generator_Demo_UTFPR](https://matheusoliveirat.github.io/Quiz-Generator/)
 
 ---
 
