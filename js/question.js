@@ -1,7 +1,7 @@
 const quiz = [
     {
-        q:'Quantos anos o campus Campo Mourão da UTFPR completou em 2025?',
-        options: ['30','27','19','18','16'],
+        q:'Quantos anos o campus Campo Mourão da UTFPR completou em 2026?',
+        options: ['31','28','20','19','17'],
         answer: 0,
         topic: "computer"
     },
@@ -68,7 +68,7 @@ const quiz = [
     {
         q:'Quantos cursos de graduação tem na UTFPR-CM?',
         options: ['10','9','8','7','6','5'],
-        answer: 2,
+        answer: 0,
         topic: "computer"
     },
     {
@@ -192,4 +192,46 @@ const quiz = [
         answer: 2,
         topic: "computer"
     },
+    {
+        q:'É verdade que a UTFPR-CM vai inaugurar dois novos cursos tecnólogos na área de IA em 2027?',
+        options: ['Verdadeiro','Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+{
+        q: 'Quais são os novos cursos focados na área de Inteligência Artificial lançados pela UTFPR-CM?',
+        options: ['Engenharia de Robótica e Computação Científica', 'Tecnologia em Inteligência Artificial Generativa e Tecnologia em Sistemas Inteligentes', 'Técnico em Redes e Programação para IA', 'Licenciatura em Computação e Automação'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q: 'O curso de Tecnologia em Inteligência Artificial Generativa da UTFPR-CM é voltado para a criação e aplicação de modelos de IA capazes de gerar texto, imagens e código?',
+        options: ['Verdadeiro', 'Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q: 'A área de Inteligência Artificial na UTFPR-CM abrange tanto a graduação quanto projetos de pesquisa e inovação tecnológica?',
+        options: ['Verdadeiro', 'Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q: 'Qual das alternativas descreve uma aplicação prática estudada nos cursos de IA da UTFPR-CM?',
+        options: ['Manutenção mecânica de motores a diesel', 'Desenvolvimento de modelos de aprendizado de máquina (Machine Learning) e visão computacional', 'Análise química de solos agrícolas sem uso de tecnologia', 'Construção civil tradicional sem automação'],
+        answer: 1,
+        topic: "computer"
+    },
+    {
+        q: 'Além de Ciência da Computação, a UTFPR-CM agora conta com cursos superiores de tecnologia focados especificamente em Inteligência Artificial?',
+        options: ['Verdadeiro', 'Falso'],
+        answer: 0,
+        topic: "computer"
+    },
+    {
+        q: 'Qual é o formato dos novos cursos de IA (Tecnólogos) lançados na UTFPR-CM?',
+        options: ['Cursos de Licenciatura para dar aula no ensino fundamental', 'Cursos Superiores de Tecnologia focados em prática e rápida inserção no mercado de trabalho', 'Cursos de Pós-Graduação apenas para quem já é formado', 'Cursos de Ensino Médio Tradicional'],
+        answer: 1,
+        topic: "computer"
+    }
 ]
